@@ -59,9 +59,6 @@ class XManager {
 								viewGroup.setScrollEnabled(true)
 							}
 						}
-
-						closeAll()
-
 						return false
 					}
 
@@ -79,6 +76,7 @@ class XManager {
 						if (viewGroup is Scrollable) {
 							viewGroup.setScrollEnabled(true)
 						}
+						closeAll()
 						return false
 					}
 
@@ -104,9 +102,6 @@ class XManager {
 								viewGroup.setScrollEnabled(true)
 							}
 						}
-
-						closeAll()
-
 						return false
 					}
 
